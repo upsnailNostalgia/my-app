@@ -1,0 +1,600 @@
+{
+    "data": [
+        {
+            "url": "https://github.com/hapjin/JAVA",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/owlike/genson",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/NaluKit/gwt-boot-starter-nalu",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/knowm/XChart",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/graphhopper/graphhopper",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/FudanNLP/fnlp",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/lrfRepos",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/crashub/crash",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bytedeco/javacpp",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jfstylejf/IssueTracker-Master",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jamesdbloom/mockserver",
+            "branch": ""
+        },
+        {
+            "url": "http://fdse.gitlab.com/Jeff/my-first-gitlab-project",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bdemers/maven-wrapper",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bytedeco/javacpp-presets",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/testMerge",
+            "branch": "master"
+        },
+        {
+            "url": "http://fdse.gitlab.com/platform/IssueTracker-Master",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/TheAlgorithms/Java",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/sqshq/piggymetrics",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/flowable/flowable-engine",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/travisjeffery/timecop",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/floragunncom/search-guard",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/reficio/p2-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/session-replay-tools/tcpcopy",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bz51/SpringBoot-Dubbo-Docker-Jenkins",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bsspirit/maven_mahout_template",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/testGit",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/aliyun/aliyun-openapi-java-sdk",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/antoniolg/LimeApp",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/linwangzai/IssueTracker-Master",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/chanjarster/weixin-java-tools",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jenkins-docs/simple-java-maven-app",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jan-molak/jenkins-build-monitor-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/rest-assured/rest-assured",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/GithubRepoPushedAt",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/h2oai/h2o-2",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/kubernetes-client/java",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/spotify/docker-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/ReshmaKolekar/Employee_skill_inventory",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/JCTools/JCTools",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/macrozheng/mall",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/dustin/java-memcached-client",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/coobird/thumbnailator",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/crawlCSRankings",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jmeter-maven-plugin/jmeter-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/androidquery/androidquery",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/KevinXie0131/SpringMVC-Spring-MyBatis",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/spotify/dockerfile-maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/carlossg/docker-maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/qiurunze123/threadandjuc",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/npo-poms/poms-shared",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/linwangzai/IssueTracker-Master",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/linwangzai/TestSonar",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bsspirit/maven_hadoop_template",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/SEzhangyuhui/mall",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/talios/clojure-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/liquibase/liquibase",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/trautonen/coveralls-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/json-iterator/java",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/AppiumTestDistribution/AppiumTestDistribution",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/fabric8io/docker-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/wuyouzhuguli/FEBS-Shiro",
+            "branch": "v2.0"
+        },
+        {
+            "url": "https://github.com/jfstylejf/frontend-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/abel533/Mapper",
+            "branch": "master"
+        },
+        {
+            "url": "http://fdse.gitlab.com/bruce/restfulAPI",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/laboon/JavaLife",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/o2oa/o2oa",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/release-engineering/pom-manipulation-ext",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/LWJGL/lwjgl3",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/v5developer/maven-framework-project",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/Netflix/SimianArmy",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jfstylejf/pom-manipulation-ext",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/android/testing-samples",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/apache/maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/waikato-datamining/adams-base",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/transparentech/cujau",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/google/google-java-format",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/square/mimecraft",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/gaopu/Java",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/akquinet/android-archetypes",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/javaee-samples/javaee7-samples",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/highsource/maven-jaxb2-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/brianchandotcom/liferay-portal",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/takari/polyglot-maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/FudanSELab/IssueTracker-Master",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/plantuml/plantuml",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/songr0/SSM",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/qiurunze123/rocketmq-detail",
+            "branch": "master"
+        },
+        {
+            "url": "http://fdse.gitlab.com/bruce/Service",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/hcsp/fix-commons-lang-pom",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/apache/maven-surefire",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jcabi/jcabi-parent",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/dubesar/CompetitiveJava",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/ata4/disunity",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/pubnub/c",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jqara/jqa-maven3-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/spotify/helios",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/Ekryd/sortpom",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/kongchen/swagger-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jqara/jqa-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bytedeco/javacv",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/jruby/warbler",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/rgladwell/m2e-android",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/Commonjava/indy",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/maven-nar/nar-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/selenium-saikrishna/maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/eirslett/frontend-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jfstylejf/IssueTracker-WorkloadTest.git",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/trivago/cluecumber-report-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/pdtx/WebMagicForBlog",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jenkinsci/deploy-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/mojohaus/exec-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/Service",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/japgolly/svg-android",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/j-easy/easy-rules",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/github/maven-plugins",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jleetutorial/maven-project",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/gwt-maven-plugin/gwt-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/gabrielf/maven-samples",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/searls/jasmine-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/npo-poms/functional-tests",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/reactiverse/vertx-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/SonarSource/sonar-scanner-maven",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/pytest-dev/pytest",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/binarywang/java-testdata-generator",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/lebron225james/IssueTracker-Master",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/apigee/apigee-config-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/samaxes/minify-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/RapidPM/rapidpm-dependencies",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/YunaBraska/deployment-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/rchrist2/springproject",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/qiurunze123/miaosha",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/Hasatori/Pomodoro-REST-API",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/npo-poms/api-clients",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/javafx-maven-plugin/javafx-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/linwangzai/poms-shared",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/aleksandr-m/gitflow-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/twitter/distributedlog",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/davidB/scala-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/microsoft/azure-maven-plugins",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/FasterXML/jackson-core",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jfstylejf/IssueTracker-WorkloadTest",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/upsnailNostalgia/Fragment",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/FasterXML/jackson-databind",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/Prototik/HoloEverywhere",
+            "branch": ""
+        },
+        {
+            "url": "https://github.com/juamal2/Maven_assessment",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/bonigarcia/webdrivermanager",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/jfstylejf/IssueTracker-Master",
+            "branch": "zhonghui20191012"
+        },
+        {
+            "url": "https://github.com/simpligility/android-maven-plugin",
+            "branch": "master"
+        },
+        {
+            "url": "https://github.com/apache/maven-doxia",
+            "branch": "master"
+        }
+    ]
+  }

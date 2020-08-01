@@ -1,0 +1,10 @@
+{
+    "data":[
+        {"label": "java7以下（包括7）" },
+        {"label": "java8"},
+        {"label": "python2"},
+        {"label": "python3"},
+        {"label": "git"},
+        {"label": "nginx"}
+    ]
+}
