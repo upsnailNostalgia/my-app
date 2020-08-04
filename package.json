@@ -37,6 +37,7 @@
   "proxy": "http://localhost:3003",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "react-router-dom": "^5.2.0"
   }
 }
