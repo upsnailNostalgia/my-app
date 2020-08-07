@@ -39,7 +39,7 @@ class MyLogin extends React.Component {
         var path = {
           pathname: '/apply',
           message: myMsg,
-          username: this.state.username,
+          username: this.state.username
         }
         this.props.history.push(
           path

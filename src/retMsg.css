@@ -3,7 +3,7 @@ table {
     border-color:white;
     text-align: center;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 table tr {
 	line-height:40px;
@@ -18,4 +18,8 @@ table tr:FIRST-CHILD {
 }
 table tr:nth-child(even) {
 	background:#d5eeeb;
+}
+.toptip{
+	margin-bottom: 10px;
+	margin-top: 100px;
 }

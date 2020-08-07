@@ -31,7 +31,7 @@
 .label_box>label {
     display: block;
     /* float: left; */
-    margin: 0 10px 10px 10px;
+    margin: 20px 10px 2px 0;
     position: relative;
     overflow: hidden;
 }
@@ -212,4 +212,12 @@
 #snapshotRepos {
     margin-left: 10px;
     margin-right: 10px;
+}
+.fileuploadlabel{
+    margin-left: 40px;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: #dddddd solid 1px;
 }
