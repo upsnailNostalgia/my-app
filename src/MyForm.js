@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios'
+import cookie from 'react-cookies'
 
 import './myForm.css';
 
@@ -41,6 +42,7 @@ class MyForm extends React.Component {
     }
 
     componentWillMount() {
+        console.log(cookie.load('username'))
         console.log(this.props.location.username)
         let username = this.props.location.username != undefined ? this.props.location.username : ''
         this.setState({
@@ -382,7 +384,7 @@ class MyForm extends React.Component {
 
                         <input class="button white" type="file" ref="fileupload" ></input>
                         <hr />
-                        <input class="button white" type="button" value="上传" onClick={this.handleUpload}></input>
+                        {/* <input class="button white" type="button" value="上传" onClick={this.handleUpload}></input> */}
                         <input class="button white" type="button" value="确认申请" onClick={this.handlebtnClick}></input>
                         <input class="button white" type="button" value="重新填写"></input>
                         <input class="button white" type="button" value="退出登录"></input>

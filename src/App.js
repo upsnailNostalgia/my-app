@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import MyForm from './MyForm.js'
+import Tasks from './Tasks.js'
 import MyLogin from './MyLogin.js'
 import RetMsg from './RetMsg.js'
 import Thanks from './Thanks.js'
@@ -34,6 +35,7 @@ class App extends React.Component {
       <div>
         <Router>
           <Route path='/' exact component={MyLogin}></Route>
+          <Route path='/tasks' exact component={Tasks}></Route>
           <Route path='/apply' exact component={MyForm}></Route>
           <Route path='/free' exact component={RetMsg}></Route>
           <Route path='/thanks' exact component={Thanks}></Route>

@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import './retMsg.css'
 import './myForm.css'
+import Tasks from './Tasks';
 
 class RetMsg extends React.Component {
     constructor(props) {
@@ -53,14 +54,17 @@ class RetMsg extends React.Component {
         this.setState({
             username: username,
         })
-        let status = this.props.location.message.Status != undefined ? this.props.location.message.Status : ''
-        let host = this.props.location.message.Host != undefined ? this.props.location.message.Host : ''
-        let container_name = this.props.location.message.Container_name != undefined ? this.props.location.message.Container_name : ''
-        this.setState({
-            status: status,
-            container_name: container_name,
-            host: host,
-        })
+        if (this.props.location.message != undefined) {
+            let status = this.props.location.message.Status != undefined ? this.props.location.message.Status : ''
+            let host = this.props.location.message.Host != undefined ? this.props.location.message.Host : ''
+            let container_name = this.props.location.message.Container_name != undefined ? this.props.location.message.Container_name : ''
+            this.setState({
+                status: status,
+                container_name: container_name,
+                host: host,
+            })
+        }
+        
     }
     render() {
         console.log(this.props)

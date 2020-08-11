@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios'
+import cookie from 'react-cookies'
 
 import './myLogin.css';
 
@@ -19,32 +20,41 @@ class MyLogin extends React.Component {
     handlebtnClick(event) {
       console.log(this.state.username)
       console.log(this.state.password)
+      cookie.save('username',this.state.username)
       event.preventDefault();
       let url = 'http://10.141.221.85:8102/user/valid' + 
                 '?username=' + this.state.username + '&password=' + this.state.password
-      axios.get(url, {
-        method: 'GET',
-        headers: { "Content-type": "application/json" },
-      }).then(data => {
-        console.log(data)
-        console.log(data.data)
-        this.setState(
-          {
-            message: data.data,
-            isActive: true,
-          }
-        )
-        let myMsg = data.data
-        console.log(myMsg)
-        var path = {
-          pathname: '/apply',
-          message: myMsg,
-          username: this.state.username
-        }
-        this.props.history.push(
-          path
-        )
-      })
+      // axios.get(url, {
+      //   method: 'GET',
+      //   headers: { "Content-type": "application/json" },
+      // }).then(data => {
+      //   console.log(data)
+      //   console.log(data.data)
+      //   this.setState(
+      //     {
+      //       message: data.data,
+      //       isActive: true,
+      //     }
+      //   )
+      //   let myMsg = data.data
+      //   console.log(myMsg)
+      //   var path = {
+      //     pathname: '/tasks',
+      //     message: myMsg,
+      //     username: this.state.username
+      //   }
+      //   this.props.history.push(
+      //     path
+      //   )
+      // })
+
+      var path = {
+        pathname: '/tasks',
+        username: this.state.username
+      }
+      this.props.history.push(
+        path
+      )
     }
   
     handleUsernameChange(event) {
