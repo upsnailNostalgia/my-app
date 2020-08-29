@@ -19,7 +19,7 @@ class RetMsg extends React.Component {
         // this.handleResBtnClick = this.handleResBtnClick.bind(this)
     }
     handleFreeBtnChange() {
-        let url = 'http://10.141.221.85:8102/task/free' + '?task=' + this.state.container_name
+        let url = 'http://10.176.34.85:8102/task/free' + '?task=' + this.state.container_name
         axios.get(url, {
             method: 'GET',
             headers: { "Content-type": "application/json" },
@@ -68,7 +68,7 @@ class RetMsg extends React.Component {
     }
     render() {
         console.log(this.props)
-        let download_url = "http://10.141.221.85:8102/file/download?container_name=" + this.state.container_name
+        let download_url = "http://10.176.34.85:8102/file/download?container_name=" + this.state.container_name
         console.log(download_url)
         return (
             // this.props.location.message != undefined &&

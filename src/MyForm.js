@@ -48,8 +48,11 @@ class MyForm extends React.Component {
         this.setState({
             username: username,
         })
+        this.setState({
+            username : cookie.load('username')
+        })
         let t = this
-        let url = "http://10.141.221.85:8102/repo" + "?nums=30"
+        let url = "http://10.176.34.85:8102/repo" + "?nums=30"
         axios.get(url).then(
             function (data) {
                 console.log(data);
@@ -106,7 +109,7 @@ class MyForm extends React.Component {
         let snapshot_list = this.state.snapshot_list
         let file_list = this.state.file_list
 
-        let url = 'http://10.141.221.85:8102/task/allocate' + '?username=' + username + '&ram_size=' + ram_size
+        let url = 'http://10.176.34.85:8102/task/allocate' + '?username=' + username + '&ram_size=' + ram_size
             + '&disk_size=' + disk_size + '&selected_requirements=' + selected_requirements
             + '&repo_selected_list=' + selected_repos + '&repo_list=' + repo_list
             + '&snapshot_list=' + snapshot_list + '&file_list=' + file_list
@@ -135,13 +138,13 @@ class MyForm extends React.Component {
                 console.log(data.data)
                 console.log(data.data['Container_name'])
                 let cur_name = data.data.Container_name
-                const url = 'http://10.141.221.85:8102/file/upload' + '?cur_name=' + cur_name;
+                const url = 'http://10.176.34.85:8102/file/upload' + '?cur_name=' + cur_name;
                 fetch(url, {
                     method: 'POST',
                     body: formdata,
                     headers: {
                         // "Content-Type": "multipart/form-data"
-                        'pre_name':pre_name,
+                        // 'pre_name':pre_name,
                     },
                     contentType: false,
                 })
@@ -150,7 +153,7 @@ class MyForm extends React.Component {
 
                 // // let pre_name = formdata.values()['name']
                 // let cur_name = data.data['Container_name']
-                // let url_tar = 'http://10.141.221.85:8102/file/tar' + '?pre_name=' + pre_name + '&cur_name=' + cur_name;
+                // let url_tar = 'http://10.176.34.85:8102/file/tar' + '?pre_name=' + pre_name + '&cur_name=' + cur_name;
                 // fetch(url_tar).then(res => console.log(res))
             
                 console.log(data)
@@ -232,8 +235,8 @@ class MyForm extends React.Component {
             console.log(value);
         }
 
-        const url = 'http://10.141.221.85:8102/file/upload';
-        fetch(url, {
+        const url = 'http://10.176.34.85:8102/file/upload';
+        axios(url, {
             method: 'POST',
             body: formdata,
             headers: {
@@ -384,7 +387,7 @@ class MyForm extends React.Component {
 
                         <input class="button white" type="file" ref="fileupload" ></input>
                         <hr />
-                        {/* <input class="button white" type="button" value="上传" onClick={this.handleUpload}></input> */}
+                        <input class="button white" type="button" value="上传" onClick={this.handleUpload}></input>
                         <input class="button white" type="button" value="确认申请" onClick={this.handlebtnClick}></input>
                         <input class="button white" type="button" value="重新填写"></input>
                         <input class="button white" type="button" value="退出登录"></input>

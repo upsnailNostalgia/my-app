@@ -6,6 +6,7 @@ import Tasks from './Tasks.js'
 import MyLogin from './MyLogin.js'
 import RetMsg from './RetMsg.js'
 import Thanks from './Thanks.js'
+import Details from './Details.js'
 
 
 class App extends React.Component {
@@ -36,6 +37,7 @@ class App extends React.Component {
         <Router>
           <Route path='/' exact component={MyLogin}></Route>
           <Route path='/tasks' exact component={Tasks}></Route>
+          <Route path='/details' exact component={Details}></Route>
           <Route path='/apply' exact component={MyForm}></Route>
           <Route path='/free' exact component={RetMsg}></Route>
           <Route path='/thanks' exact component={Thanks}></Route>

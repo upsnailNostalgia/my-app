@@ -22,7 +22,7 @@ class MyLogin extends React.Component {
       console.log(this.state.password)
       cookie.save('username',this.state.username)
       event.preventDefault();
-      let url = 'http://10.141.221.85:8102/user/valid' + 
+      let url = 'http://10.176.34.85:8102/user/valid' + 
                 '?username=' + this.state.username + '&password=' + this.state.password
       // axios.get(url, {
       //   method: 'GET',

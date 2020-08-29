@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios'
 import cookie from 'react-cookies'
 
 
@@ -12,7 +13,9 @@ class Tasks extends React.Component {
             tasks1 : [
                 ['aaa','bbbb'],['ccc','ddd'],['eee','ffff'],
             ],
-            tasks_up : [
+            tasks_up : [],
+            tasks_down : [],
+            tasks_up0 : [
                 {
                   'task_name' : 'aaaaaaaaaaaaaaaaa',
                   'start_time' : '2020/08/10 12:12:12',
@@ -38,7 +41,7 @@ class Tasks extends React.Component {
                     'end_time' : '2022/08/11 12:12:12'
                   },
             ],
-            tasks_down : [
+            tasks_down0 : [
                 {
                     'task_name' : 'upsnail1',
                     'start_time' : '2022',
@@ -82,30 +85,40 @@ class Tasks extends React.Component {
             ],
         }
         this.handleAddTaskClick = this.handleAddTaskClick.bind(this);
+        this.handleDetailsClick = this.handleDetailsClick.bind(this);
     }
 
     componentWillMount() {
-        if (this.props.location != undefined) {
-console.log(this.props.location.username)
-        let username = this.props.location.username != undefined ? this.props.location.username : ''
-        this.setState({
-            username: username,
-        })
-        }
+//         if (this.props.location != undefined) {
+// console.log(this.props.location.username)
+//         let username = this.props.location.username != undefined ? this.props.location.username : ''
+//         this.setState({
+//             username: username,
+//         })
+//         }
         this.setState({
             username : cookie.load('username')
         })
-        
-        // let t = this
-        // let url = "http://10.141.221.85:8102/repo" + "?nums=30"
-        // axios.get(url).then(
-        //     function (data) {
-        //         console.log(data);
-        //         t.setState({
-        //             pop_repos: data.data.Data
-        //         });
-        //     }
-        // );
+        let t = this
+        let url = "http://10.176.34.85:8102/tasks" + "?username=" + cookie.load('username') + "&status=up" 
+        axios.get(url).then(
+            function (data) {
+                console.log(url)
+                console.log(data);
+                t.setState({
+                    tasks_up: data.data.Data
+                });
+            }
+        );
+        url = "http://10.176.34.85:8102/tasks" + "?username=" + cookie.load('username') + "&status=down" 
+        axios.get(url).then(
+            function (data) {
+                console.log(data);
+                t.setState({
+                    tasks_down: data.data.Data
+                });
+            }
+        );
     }
 
     handleAddTaskClick() {
@@ -118,8 +131,19 @@ console.log(this.props.location.username)
         )
     }
 
+    handleDetailsClick() {
+        console.log('aaaa')
+        var path = {
+            pathname: '/details',
+        }
+        this.props.history.push(
+            path
+        )
+    }
+
     render() {
-        console.log(this.state.tasks)
+        console.log(this.state.tasks1)
+        const self = this
         return (
             <div>
                 <div class='toptip'><strong><i>{this.state.username}</i></strong>,所有正在运行的任务信息如下：</div>
@@ -143,8 +167,8 @@ console.log(this.props.location.username)
                                     <td>{row.status}</td>
                                     <td>{row.memory}</td>
                                     <td>{row.disk}</td>
-                                    <td><input class="button white" type="button" value="详情"></input></td>
-                                    <td><input class="button white" type="button" value="暂停"></input></td>
+                                    <td><input class="button white" type="button" value="详情" onClick={self.handleDetailsClick}></input></td>
+                                    <td><input class="button white" type="button" value="暂停" ></input></td>
                                 </tr>)
                             })
                         }
